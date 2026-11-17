@@ -1,0 +1,14 @@
+interface:
+  display_name: Validate Before Build
+  short_description: Pressure-test hackathon and product ideas before coding
+  default_prompt: Use $validate-before-build to evaluate my idea and plan the smallest
+    useful validation before we build.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

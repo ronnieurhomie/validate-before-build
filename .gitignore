@@ -1,0 +1,27 @@
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.*
+
+# Archives, dependencies, caches, and local working files
+*.zip
+*.tar
+*.tar.gz
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+work/
+tmp/
